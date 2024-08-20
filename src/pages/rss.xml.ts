@@ -13,7 +13,7 @@ export const get = async () => {
 
 	return rss({
 		title: `Astros`,
-		description: "Astros - Starter Template for Astro with Tailwind CSS",
+		description: "Mars Express - End to End solution",
 		site: import.meta.env.SITE,
 
 		items: posts.map((post) => ({
