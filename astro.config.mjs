@@ -11,7 +11,7 @@ import icon from "astro-icon";
 
 // https://astro.build/config
 export default defineConfig({
-	site: "https://astros.zank.studio",
+	site: "https://www.marsexpress.ae/",
 	vite: {
 		define: {
 			__DATE__: `'${new Date().toISOString()}'`,
@@ -29,8 +29,8 @@ export default defineConfig({
 			includeAssets: ["favicon.svg"],
 			registerType: "autoUpdate",
 			manifest: {
-				name: "Astros - Starter Template for Astro with Tailwind CSS",
-				short_name: "Astros",
+				name: "Mars Express - End to End solution",
+				short_name: "MEX",
 				theme_color: "#ffffff",
 				icons: [
 					{
